@@ -1,0 +1,9 @@
+@import "../defaultColor.scss";
+
+.gameLayout {
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+  grid-gap: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
