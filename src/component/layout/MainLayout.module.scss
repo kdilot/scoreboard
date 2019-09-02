@@ -1,0 +1,8 @@
+.layout {
+  display: grid;
+  margin: 2%;
+  // height: calc(100vh - 4rem);
+  grid-template-columns: repeat(auto-fit, minmax(calc(480px), 1fr));
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 0 1rem;
+}
