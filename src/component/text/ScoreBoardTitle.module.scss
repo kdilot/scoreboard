@@ -1,0 +1,19 @@
+@import "../defaultColor.scss";
+@import "../group.module.scss";
+
+.titleBoard {
+  width: 50%;
+  @include shadow-style(0px, 0px, 15px, 3px, white);
+  h3 {
+    padding: 0.2rem 0;
+    text-transform: capitalize;
+    text-align: center;
+    color: $font;
+  }
+}
+.home {
+  @include shadow-style(0px, 0px, 15px, 3px, green);
+}
+.away {
+  @include shadow-style(0px, 0px, 15px, 3px, red);
+}
