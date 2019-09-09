@@ -1,0 +1,17 @@
+@import "./group.module.scss";
+
+
+.pointHome {
+  font-weight: bold;
+  background: rgba(0, 128, 0, 0.25);
+}
+.pointAway {
+  font-weight: bold;
+  background: rgba(255, 0, 0, 0.25);
+}
+
+@mixin ani($name, $time, $type: ease-in-out) {
+  -webkit-animation: #{$name} $time $type;
+  --moz--animation: #{$name} $time $type;
+  animation: #{$name} $time $type;
+}

@@ -1,0 +1,17 @@
+@mixin shadow-style($x: 0px, $y: 0px, $b: 0px, $s: 0px, $color: white, $inset: "") {
+  -webkit-box: #{$inset} $x $y $b $s $color;
+  -moz-box-shadow: #{$inset} $x $y $b $s $color;
+  box-shadow: #{$inset} $x $y $b $s $color;
+}
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
